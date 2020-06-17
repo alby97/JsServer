@@ -1,0 +1,60 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - socketio > socket.io > socket.io-adapter > debug:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > socket.io-client > debug:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > socket.io-parser > debug:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > engine.io > debug:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > debug:
+        patched: '2019-08-07T09:37:10.582Z'
+  'npm:ms:20170412':
+    - socketio > socket.io > engine.io > debug > ms:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > socket.io-adapter > debug > ms:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > socket.io-client > debug > ms:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > socket.io-parser > debug > ms:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2019-08-07T09:37:10.582Z'
+    - socketio > socket.io > debug > ms:
+        patched: '2019-08-07T09:37:10.582Z'
+  SNYK-JS-LODASH-567746:
+    - email-templates > @ladjs/i18n > lodash:
+        patched: '2020-05-13T11:08:35.432Z'
+    - inquirer > lodash:
+        patched: '2020-05-13T11:08:35.432Z'
+    - email-templates > html-to-text > lodash:
+        patched: '2020-05-13T11:08:35.432Z'
+    - winston > async > lodash:
+        patched: '2020-05-13T11:08:35.432Z'
+    - nodemailer-mailgun-transport > mailgun-js > async > lodash:
+        patched: '2020-05-13T11:08:35.432Z'
+    - openssl > nyks > async > lodash:
+        patched: '2020-05-13T11:08:35.432Z'
+    - email-templates > preview-email > pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-05-13T11:08:35.432Z'
+    - email-templates > preview-email > pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-05-13T11:08:35.432Z'
+    - email-templates > preview-email > pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-05-13T11:08:35.432Z'
+    - email-templates > lodash:
+        patched: '2020-05-13T11:08:35.432Z'
